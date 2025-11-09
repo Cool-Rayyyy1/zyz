@@ -28,6 +28,12 @@ jobs:
           sudo apt-get install -y imagemagick
           bundle install
 
+      # 👉 新增：给 jekyll-jupyter-notebook 准备 jupyter/nbconvert
+      - name: Install jupyter for notebook conversion
+        run: |
+          sudo apt-get install -y python3-pip
+          pip install --user jupyter nbconvert
+
       - name: Build site
         run: bundle exec jekyll build
 
