@@ -2,16 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle:  Department of Computer Science, Brandeis University.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: rayzyz.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>301 Guest Street</p>
+    <p>Boston, MA, 02134</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,9 +25,9 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+I am a third-year Ph.D. student in Computer Science at Brandeis University, advised by [Professor Pengyu Hong](https://www.cs.brandeis.edu/~hong/). My research interests are in **generative AI for real-world applications** — building models that are efficient, effective, and explainable. Recently I’ve been focusing on **controllable diffusion** and **multimodal learning**, especially on improving inference and efficiency strategies for **stable, steerable text-to-image synthesis**.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Before Brandeis, I received my B.S. from the **University of Illinois at Urbana–Champaign (UIUC)** and my M.S. from **Columbia University**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Outside research, I enjoy working out, cooking, making cocktails, and traveling.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
