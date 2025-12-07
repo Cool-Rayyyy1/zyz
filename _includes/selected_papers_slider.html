@@ -1,0 +1,67 @@
+<div class="selected-papers-image">
+    <!-- Swiper 的样式 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    >
+  
+    <!-- 轮播容器（左侧小图区域） -->
+    <swiper-container
+      class="swiper-selected-papers"
+      slides-per-view="1"
+      loop="true"
+      autoplay="true"
+      autoplay-delay="2500"
+      speed="800"
+    >
+      <!-- 第 1 篇 paper 的 3 张图 -->
+      <swiper-slide>
+        <img
+          src="{{ '/assets/img/papers/paper1_1.jpg' | relative_url }}"
+          alt="ADSS figure 1"
+          loading="lazy"
+        >
+      </swiper-slide>
+      <swiper-slide>
+        <img
+          src="{{ '/assets/img/papers/paper1_2.jpg' | relative_url }}"
+          alt="ADSS figure 2"
+          loading="lazy"
+        >
+      </swiper-slide>
+      <swiper-slide>
+        <img
+          src="{{ '/assets/img/papers/paper1_3.jpg' | relative_url }}"
+          alt="ADSS figure 3"
+          loading="lazy"
+        >
+      </swiper-slide>
+  
+      <!-- 第 2 篇 paper 的 3 张图 -->
+      <swiper-slide>
+        <img
+          src="{{ '/assets/img/papers/paper2_1.jpg' | relative_url }}"
+          alt="CMCM-DLM figure 1"
+          loading="lazy"
+        >
+      </swiper-slide>
+      <swiper-slide>
+        <img
+          src="{{ '/assets/img/papers/paper2_2.jpg' | relative_url }}"
+          alt="CMCM-DLM figure 2"
+          loading="lazy"
+        >
+      </swiper-slide>
+      <swiper-slide>
+        <img
+          src="{{ '/assets/img/papers/paper2_3.jpg' | relative_url }}"
+          alt="CMCM-DLM figure 3"
+          loading="lazy"
+        >
+      </swiper-slide>
+    </swiper-container>
+  
+    <!-- Swiper 的 JS（Web Component 版本，不用自己写 JS 初始化） -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </div>
+  

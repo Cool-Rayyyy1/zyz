@@ -1,0 +1,19 @@
+- key: zhang2025adss
+  title: "ADSS: Boosting Text-to-Image Diffusion Models via Attention-Driven Seed Selection"
+  venue: "Preprint"
+  year: 2025
+  url: "/publications/#zhang2025adss"
+  images:
+    - "/assets/img/papers/paper1_1.jpg"
+    - "/assets/img/papers/paper1_2.jpg"
+    - "/assets/img/papers/paper1_3.jpg"
+
+- key: zhang2025cmcm_dlm
+  title: "Cross-Modality Controlled Molecule Generation with Diffusion Language Model"
+  venue: "arXiv"
+  year: 2025
+  url: "https://arxiv.org/abs/2508.14748"
+  images:
+    - "/assets/img/papers/paper2_1.jpg"
+    - "/assets/img/papers/paper2_2.jpg"
+    - "/assets/img/papers/paper2_3.jpg"

@@ -1,0 +1,41 @@
+<div class="selected-pubs-slider">
+    {%- comment -%}
+    Swiper 的样式和脚本（用 Web Component 版，免写 JS 初始化）。
+    {%- endcomment -%}
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    >
+  
+    <swiper-container
+      class="swiper-selected-pubs"
+      slides-per-view="1"
+      loop="true"
+      autoplay="true"
+      autoplay-delay="2500"
+      pagination="true"
+      navigation="true"
+    >
+      {%- for pub in site.data.selected_pubs -%}
+        {%- for image in pub.images -%}
+          <swiper-slide>
+            <a href="{{ pub.url | relative_url }}" target="_blank" rel="noopener">
+              <img
+                src="{{ image | relative_url }}"
+                alt="{{ pub.title | escape }}"
+                loading="lazy"
+                style="width:100%;height:auto;display:block;object-fit:contain;"
+              >
+            </a>
+            <div class="selected-pub-caption">
+              <strong>{{ pub.title }}</strong><br>
+              <span>{{ pub.venue }} {{ pub.year }}</span>
+            </div>
+          </swiper-slide>
+        {%- endfor -%}
+      {%- endfor -%}
+    </swiper-container>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </div>
+  

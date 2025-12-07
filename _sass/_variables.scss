@@ -18,8 +18,9 @@ $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
+$purple-color: #0076df !default; // 用你上面定义过的蓝色
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
+$code-bg-color-light: rgba($purple-color, 0.05);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
 $yellow-color: #efcc00 !default;

@@ -2,15 +2,18 @@
   {% assign skip_basics = 'image,profiles,location' | split: ',' %}
   {% for content in data[1] %}
     {%
-      if (content[1] == "") or (skip_basics contains
-      content[0])
+      if (content[1] == "") or (skip_basics contains content[0])
     %}
       {% continue %}
     {% endif %}
 
     <tr>
       <td class="p-1 pr-2 font-weight-bold">
-        <b>{{ content[0] | capitalize }}</b>
+        {% if content[0] == 'mbti' %}
+          <b>MBTI</b>
+        {% else %}
+          <b>{{ content[0] | capitalize }}</b>
+        {% endif %}
       </td>
       <td class="p-1 pl-2 font-weight-light text">
         {% if content[0] == 'url' %}
