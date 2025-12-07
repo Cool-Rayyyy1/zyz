@@ -38,7 +38,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/zyz/life/2025/12/06/alcohol.html";
+            window.location.href = "/zyz/blog/2025/alcohol/";
           
         },
       },{id: "post-flowers",
@@ -49,7 +49,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/zyz/life/2025/11/08/flower.html";
+            window.location.href = "/zyz/blog/2025/flower/";
           
         },
       },{id: "post-eggs-benedict",
@@ -60,7 +60,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/zyz/life/2025/11/05/cook.html";
+            window.location.href = "/zyz/blog/2025/cook/";
           
         },
       },{id: "post-chest-day",
@@ -71,7 +71,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/zyz/life/2025/10/09/gym.html";
+            window.location.href = "/zyz/blog/2025/gym/";
           
         },
       },{id: "post-展示下进步",
@@ -82,14 +82,14 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/zyz/life/2025/06/19/gym.html";
+            window.location.href = "/zyz/blog/2025/gym/";
           
         },
       },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/zyz/books/the_godfather.html";
+              window.location.href = "/zyz/books/the_godfather/";
             },},{id: "news-submit-cmcm-to-aaai-2026-for-review",
           title: 'Submit CMCM to AAAI 2026 for review.',
           description: "",
@@ -100,47 +100,47 @@ ninja.data = [{
           title: 'project 1',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/1_project.html";
+              window.location.href = "/zyz/projects/1_project/";
             },},{id: "projects-project-2",
           title: 'project 2',
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/2_project.html";
+              window.location.href = "/zyz/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
           title: 'project 3 with very long name',
           description: "a project that redirects to another website",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/3_project.html";
+              window.location.href = "/zyz/projects/3_project/";
             },},{id: "projects-project-4",
           title: 'project 4',
           description: "another without an image",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/4_project.html";
+              window.location.href = "/zyz/projects/4_project/";
             },},{id: "projects-project-5",
           title: 'project 5',
           description: "a project with a background image",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/5_project.html";
+              window.location.href = "/zyz/projects/5_project/";
             },},{id: "projects-project-6",
           title: 'project 6',
           description: "a project with no image",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/6_project.html";
+              window.location.href = "/zyz/projects/6_project/";
             },},{id: "projects-project-7",
           title: 'project 7',
           description: "with background image",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/7_project.html";
+              window.location.href = "/zyz/projects/7_project/";
             },},{id: "projects-project-8",
           title: 'project 8',
           description: "an other project with a background image and giscus comments",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/8_project.html";
+              window.location.href = "/zyz/projects/8_project/";
             },},{id: "projects-project-9",
           title: 'project 9',
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
-              window.location.href = "/zyz/projects/9_project.html";
+              window.location.href = "/zyz/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
