@@ -1,13 +1,20 @@
-_site
-.bundle
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-.DS_store
-.ruby-version
-.tweet-cache
+# Ignore the contents of the _site directory
+_site/
+
+# Ignore the directory for local files during development
+local/
+
+# Ignore the Gemfile that is generated
 Gemfile.lock
-assets/libs/
-node_modules/
-vendor
-.idea
+
+# Ingore files created by npm
+node_modules
+package-lock.json
+
+# Ignore bundler files
+.bundle/
+vendor/
+
+# Ignore Claude Code skill files
+.agents/
+skills-lock.json

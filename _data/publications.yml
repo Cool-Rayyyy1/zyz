@@ -1,0 +1,26 @@
+main:
+  - title: "SpurFlow: Spatially-Adaptive Residual Steering for Few-Step Image Editing"
+    authors: Yunzhe Zhang, Chengmin Gao, Qi Cai, Yingwei Pan, Pengyu
+      Hong<sup>†</sup>, Ting Yao, and Tao Mei<sup>†</sup>
+    venue_short: Manuscript
+    venue: Manuscript in preparation
+    notes: PDF will be released soon.
+    image: /assets/img/papers/spur-flow.jpg
+    context: Work completed during my research internship at <a
+      href="https://www.hidream.ai/" target="_blank"
+      rel="noopener">HiDream.ai</a>.
+  - title: Boosting Text-to-Image Diffusion Models via Core Token Attention-Based
+      Seed Selection
+    authors: Yunzhe Zhang, Hongfu Liu, and Pengyu Hong
+    venue_short: NeurIPS 2026
+    venue: Accepted to NeurIPS 2026
+    doi: https://arxiv.org/abs/2605.19532
+    pdf: https://arxiv.org/pdf/2605.19532
+    image: /assets/img/papers/abss-framework.png
+  - title: Cross-Modality Controlled Molecule Generation with Diffusion Language Model
+    authors: Yunzhe Zhang, Yifei Wang, Khanh Vinh Nguyen, and Pengyu Hong
+    venue_short: arXiv
+    venue: Submitted to IEEE Big Data
+    doi: https://arxiv.org/abs/2508.14748
+    pdf: https://arxiv.org/pdf/2508.14748
+    image: /assets/img/papers/cmdlm-intro.png

@@ -1,0 +1,7 @@
+## Work Experience
+
+<div class="work-list">
+<div class="work-entry"><a class="company-mark" href="https://www.hidream.ai/" target="_blank" rel="noopener"><img src="{{ '/assets/img/companies/hidream.png' | relative_url }}" alt="HiDream.ai logo" width="100" height="60" loading="lazy"></a><div class="work-copy"><strong>Machine Learning Researcher</strong> · <a href="https://www.hidream.ai/" target="_blank" rel="noopener">HiDream.ai</a><br>Internship · May 2026 – Sep. 2026<br><span class="entry-meta">Shanghai, China · On-site</span></div></div>
+<div class="work-entry"><a class="company-mark" href="https://www.accenture.com/" target="_blank" rel="noopener"><img src="{{ '/assets/img/companies/accenture.png' | relative_url }}" alt="Accenture logo" width="100" height="60" loading="lazy"></a><div class="work-copy"><strong>Machine Learning Researcher</strong> · Accenture<br>Part-time · Sep. 2022 – Dec. 2022<br><span class="entry-meta">New York, United States · Remote</span></div></div>
+<div class="work-entry"><a class="company-mark" href="https://www.wuxiapptec.com/" target="_blank" rel="noopener"><img src="{{ '/assets/img/companies/wuxi.png' | relative_url }}" alt="WuXi AppTec logo" width="100" height="60" loading="lazy"></a><div class="work-copy"><strong>Data Scientist Intern</strong> · WuXi AppTec<br>Apr. 2020 – Sep. 2020<br><span class="entry-meta">Shanghai, China</span></div></div>
+</div>
